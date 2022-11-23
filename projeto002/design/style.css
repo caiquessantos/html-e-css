@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+:root {
+  --color0: white;
+  --color2: black;
+  --color3: bisque;
+  --color4: #015958;
+  --color5: #023535;
+  --color6: seagreen;
+  --color7: #c7ffed;
+  --color9: #01595810;
+  --color10: #02353567;
+  --color11: #cef09d;
+  --color12: #d8ffdb;
+}
+
+body {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color3);
+  margin: 0;
+  max-width: 100%;
+  min-width: 300px;
+}
+header {
+  background-color: var(--color4);
+  padding: 1em;
+  color: var(--color0);
+  text-align: center;
+  text-shadow: 0px 1px 10px var(--color5);
+  max-width: 100%;
+  min-width: 300px;
+}
+header h1 {
+  font-size: 3em;
+}
+nav {
+  padding: 1em;
+  background-color: var(--color4);
+  text-shadow: 0px 1px 10px var(--color5);
+  max-width: 100%;
+  min-width: 300px;
+}
+
+nav UL {
+  margin: 0px;
+}
+
+nav ul > li {
+  display: inline;
+}
+
+nav li > a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 0px 1px 10px var(--color5);
+  padding: 1em;
+  transition-duration: 0.5s;
+}
+
+nav li > a:hover {
+  background-color: seagreen;
+}
+main {
+  background-color: var(--color7);
+  padding: 1em;
+  width: 70%;
+  margin: auto;
+  max-width: 100%;
+  min-width: 300px;
+  margin-bottom: 4em;
+}
+
+main h1 {
+  font-size: 2em;
+  background-image: linear-gradient(to right, var(--color10), var(--color9));
+  padding: 5px;
+  color: var(--color0);
+  text-shadow: 0px 1px 10px var(--color5);
+}
+
+main p {
+  text-align: justify;
+  text-indent: 2em;
+}
+
+main h2 {
+  background-image: linear-gradient(to right, var(--color10), var(--color9));
+  padding: 5px;
+  color: var(--color0);
+  text-shadow: 0px 1px 10px var(--color5);
+}
+
+.imagem {
+  text-align: center;
+  max-width: 100%;
+  min-width: 300px;
+}
+
+iframe {
+  max-width: 100%;
+  min-width: 300px;
+  display: block;
+  width: 50em;
+  margin: auto;
+  height: 20em;
+}
+
+.fim h2 {
+  background-image: linear-gradient(to right, var(--color11), var(--color11));
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.fim div {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: var(--color12);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.fim div > ul {
+  columns: 2;
+}
+
+footer {
+  position: fixed;
+  bottom: 0%;
+  background-color: var(--color4);
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+}
+
+span a {
+  color: var(--color5);
+  text-decoration: none;
+  background-color: var(--color3);
+}
+
+span a:hover {
+  text-decoration: underline;
+  color: rgb(100, 23, 172);
+}

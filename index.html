@@ -28,11 +28,34 @@
           </span>
         </h3>
       </article>
-      <article class="p">
-        <h2>
+      <article>
+        <h2 id="p">
           <a href="projetos.html" target="_self" rel="next">+ Projetos</a>
         </h2>
       </article>
     </main>
-  </body>
+
+    <script>
+      var box = document.getElementById("p");
+      box.addEventListener('mouseenter', entar)
+      box.addEventListener('mouseout', sair)
+
+      function entar(){
+        var e = document.getElementById("p")
+        e.style.width = '90%'
+        e.style.height = '150px'
+        e.style.lineHeight= '150px'
+        e.style.borderRadius = '1000px 750px;'
+        e.style.boxShadow ='0px 3px 40px rgb(0, 96, 109)'
+      }
+      function sair(){
+        var s = document.getElementById("p")
+        s.style.width = '400px'
+        s.style.height = '100px'
+        s.style.lineHeight = '100px'
+        e.style.boxShadow = '0px 1px 5px rgb(0, 96, 109)'
+      }
+
+
+    </script>
 </html>

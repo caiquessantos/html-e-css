@@ -147,6 +147,7 @@ main {
 article {
   text-align: center;
   color: var(--color1);
+  margin-bottom: 100px;
 }
 
 article h1 {

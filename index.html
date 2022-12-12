@@ -28,10 +28,9 @@
           </span>
         </h3>
       </article>
-      <article>
-        <h2 id="p">
-          <a href="projetos.html" target="_self" rel="next">+ Projetos</a>
-        </h2>
+
+      <article class="projetos">
+          <div><a href="projetos.html" target="_self" rel="next" id="p">+ Projetos</a></div>
       </article>
     </main>
 
@@ -42,20 +41,21 @@
 
       function entar(){
         var e = document.getElementById("p")
-        e.style.width = '90%'
-        e.style.height = '150px'
-        e.style.lineHeight= '150px'
+        e.style.paddingRight = '4em'
+        e.style.paddingLeft = '4em'
+        e.style.paddingTop = '2em'
+        e.style.paddingBottom = '2em'
         e.style.borderRadius = '1000px 750px;'
-        e.style.boxShadow ='0px 3px 40px rgb(0, 96, 109)'
+        e.style.boxShadow ='0px 20px 50px rgb(0, 96, 109)'
+        e.style.transitionDuration = '0.5s'
       }
       function sair(){
         var s = document.getElementById("p")
-        s.style.width = '400px'
-        s.style.height = '100px'
-        s.style.lineHeight = '100px'
-        e.style.boxShadow = '0px 1px 5px rgb(0, 96, 109)'
+        s.style.paddingRight = '3em'
+        s.style.paddingLeft = '3em'
+        s.style.paddingTop = '1em'
+        s.style.paddingBottom = '1em'
+        s.style.boxShadow = 'none'
       }
-
-
     </script>
 </html>

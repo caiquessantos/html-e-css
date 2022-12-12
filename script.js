@@ -1,1 +1,3 @@
-alert("Seja bem vindo(a)!!!!");
+function recepccao() {
+  alert("Seja bem vindo(a)!!!!");
+}

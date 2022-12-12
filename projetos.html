@@ -14,12 +14,12 @@
         <li><a href="contatos.html" target="_self" rel="next">Contatos</a></li>
       </ul>
     </nav>
-    <article>
+    <article id="project_article">
       <h1>Projetos de HTML5 e CSS3</h1>
       <div class="par_proj">
         <p>
           Aqui você encontra meus projetos pessoais de HTML e CSS feitos a
-          partir da minha vivência acadêmica ou complementar.
+          partir da minha vivência acadêmica e complementar.
         </p>
       </div>
       <a href="projeto001/index.html" target="_blank" rel="next" id="p"
@@ -46,30 +46,22 @@
         >P2 files</a
       >
     </article>
+    <article>
+      <h1>Projetos de JavaScript</h1>
+      <div class="par_proj">
+        <p>
+          Aqui você encontra meus projetos pessoais de JavaScript feitos a
+          partir da minha vivência acadêmica e complementar.
+        </p>
+      </div>
+      <a href="projeto001_js/treino01.html" target="_blank" rel="next" id="p"
+        >Projeto001</a
+      >
+      <div class="espaço">OU</div>
+      <a href="projeto002_js/ver_idad.html" target="_blank" rel="next" id="p"
+        >Projeto002</a
+      >
+      <div class="espaço">OU</div>
+    </article>
   </body>
-  <script>
-    for (var i = 0; i <= 3; i++) {
-      var box = document.getElementById("p")[i];
-      box.addEventListener("mouseenter", entar);
-      box.addEventListener("mouseout", sair);
-      function entar() {
-        var e = document.getElementById("p")[i];
-        e.style.paddingRight = "4em";
-        e.style.paddingLeft = "4em";
-        e.style.paddingTop = "2em";
-        e.style.paddingBottom = "2em";
-        e.style.borderRadius = "1000px 750px;";
-        e.style.boxShadow = "0px 20px 50px rgb(0, 96, 109)";
-        e.style.transitionDuration = "0.5s";
-      }
-      function sair() {
-        var s = document.getElementById("p")[i];
-        s.style.paddingRight = "3em";
-        s.style.paddingLeft = "3em";
-        s.style.paddingTop = "1em";
-        s.style.paddingBottom = "1em";
-        s.style.boxShadow = "none";
-      }
-    }
-  </script>
 </html>

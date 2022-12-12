@@ -33,29 +33,4 @@
           <div><a href="projetos.html" target="_self" rel="next" id="p">+ Projetos</a></div>
       </article>
     </main>
-
-    <script>
-      var box = document.getElementById("p");
-      box.addEventListener('mouseenter', entar)
-      box.addEventListener('mouseout', sair)
-
-      function entar(){
-        var e = document.getElementById("p")
-        e.style.paddingRight = '4em'
-        e.style.paddingLeft = '4em'
-        e.style.paddingTop = '2em'
-        e.style.paddingBottom = '2em'
-        e.style.borderRadius = '1000px 750px;'
-        e.style.boxShadow ='0px 20px 50px rgb(0, 96, 109)'
-        e.style.transitionDuration = '0.5s'
-      }
-      function sair(){
-        var s = document.getElementById("p")
-        s.style.paddingRight = '3em'
-        s.style.paddingLeft = '3em'
-        s.style.paddingTop = '1em'
-        s.style.paddingBottom = '1em'
-        s.style.boxShadow = 'none'
-      }
-    </script>
 </html>
